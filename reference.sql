@@ -1,3 +1,4 @@
+--Quick reference for SQL syntax.
 ==========
 
 SELECT *
