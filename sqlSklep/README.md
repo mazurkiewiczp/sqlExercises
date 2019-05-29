@@ -5,4 +5,4 @@ W bazie przechowywane są:
 2. Klienci, zamówienia klientów, zarejestrowane płatności, adresy klientów.
 3. Pracownicy i ich stanowiska.
 
-Utworzone zostały przykładowe widoki i zapytania dla danych testowych.
+Utworzone zostały przykładowe widoki, indeksy, triggery, procedury składowane i zapytania dla danych testowych.
