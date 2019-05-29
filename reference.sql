@@ -21,7 +21,7 @@ WHERE condition
     AND/OR another_condition
     AND/OR …;
 
-operators:
+--operators:
 =, !=, < <=, >, >=
 BETWEEN ... AND ...
 IN
@@ -56,7 +56,7 @@ INNER/LEFT/RIGHT/FULL JOIN another_table
 
 ==========
 
-common aggregate functions:
+--common aggregate functions:
 COUNT(*)
 COUNT(column)
 MIN(column)
@@ -84,8 +84,7 @@ HAVING constraints are written like WHERE constraints
 
 ==========
 
-Query order execution
-
+--Query order execution:
 1. FROM and JOIN
 2. WHERE
 3. GROUP BY
@@ -118,7 +117,7 @@ CREATE TABLE IF NOT EXISTS mytable (
     …
 );
 
-datatypes:
+--datatypes:
 INTEGER, BOOLEAN
 FLOAT, DOUBLE, REAL 
 CHARACTER(num_chars)
