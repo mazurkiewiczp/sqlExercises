@@ -78,3 +78,13 @@ create table Zamowienia
     id_pracownika smallint foreign key
         references pracownicy.Pracownicy(id_pracownika)
 )
+
+--tabela asocjacyjna z kluczem kompozytowym
+create table ZamowieniaProduktyMap
+(
+    id_produktu smallint not null foreign key
+    references Produkty(id_produktu),
+    id_zamowienia smallint not null foreign key
+    references Zamowienia(id_zamowienia),
+    primary key (id_produktu, id_zamowienia)
+)
