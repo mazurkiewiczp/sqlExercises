@@ -1,4 +1,4 @@
---zapytanie wyświetla wszystkie towary których zamówiono więcej niż jest dostępne na stanie (i wyświetlenie ile więcej).
+--zapytanie wyświetla wszystkie towary których zamówiono więcej niż jest dostępne na stanie (i wyświetla ile więcej).
 
 select p.opis as 'produkt', t.ilość_zamówionych-p.ile_dostepnych as 'ile brakuje'
 from (
